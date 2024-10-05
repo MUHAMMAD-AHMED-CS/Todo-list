@@ -35,6 +35,7 @@ This project is a simple Todo List application built using Node.js, Express, Mon
 │       └── Creat.jsx      # Component for adding new tasks
 
 └── README.md           # Project documentation
+
 ```
 
 ## Setup Instructions
@@ -48,18 +49,19 @@ This project is a simple Todo List application built using Node.js, Express, Mon
 
 1. Clone the repository:
 
-   ```bash
-   git clone <repository-url>
-   cd <project-directory>
-  bash```
-2.Install the backend dependencies:
+```bash
+  git clone <repository-url>
+  cd <project-directory>
+```
+2. Install the backend dependencies:
 
-  ```bash
+```bash
 cd server
 npm install
 ```
-3.Install front end dependencies:
-  ```bash
+3. Install front end dependencies:
+
+```bash
 cd frontend
 npm install
 ```
@@ -71,25 +73,25 @@ npm install
 ```bash
 mongod
 ```
-###Start the Backend Server
+### Start the Backend Server
 ```bash
 npm start
 ```
-###Start the Frontend Application
+### Start the Frontend Application
 ```bash
 npm start
 ```
 
-##Access the Application
+## Access the Application
 Open your browser and navigate to http://localhost:3000 to see the application in action.
 
-###API Endpoints
-GET /get: Retrieve all tasks.
-POST /add: Add a new task. Expects a JSON body with the format { "task": "Your task here" }.
-PUT /update/:id: Mark a task as completed.
-PUT /del/:id: Delete a task by ID.
+### API Endpoints
+#####  GET /get: Retrieve all tasks.
+#####  POST /add: Add a new task. Expects a JSON body with the format { "task": "Your task here" }.
+#####  PUT /update/:id: Mark a task as completed.
+#####  PUT /del/:id: Delete a task by ID.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
